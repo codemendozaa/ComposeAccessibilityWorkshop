@@ -1,3 +1,27 @@
 <resources>
-    <string name="app_name">Compose Accessibility Workshop</string>
+    <string name="app_name">ComposeAccessibilityWorkshop</string>
+    <!--    Home Navigation-->
+    <string name="essentials_title">Essentials</string>
+    <string name="semantics_title">Semantics</string>
+    <string name="headings_title">Semantics</string>
+    <string name="list_actions_title">List Actions</string>
+
+    <string name="accessibility_on_description">Accessibility feature is on</string>
+    <string name="accessibility_off_description">Accessibility feature is off</string>
+
+    <string name="cd_close">Close</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_enable_custom_clickable_box">Enable custom clickable box</string>
+    <string name="cd_disable_custom_clickable_box">Disable Custom clickable box</string>
+
+    <string name="cd_enabled_state_custom_clickable_box">Custom clickable box is enabled</string>
+    <string name="cd_disabled_state_custom_clickable_box">Custom clickable box is disabled</string>
+    <string name="cd_read_article">Read article</string>
+
+    <string name="unfavourite">Unfavourite</string>
+    <string name="favourite">Favourite</string>
+
+    <string name="lorem_ipsum">"Gracias por asistir al DevFest Medellín 2024. Estamos emocionados de compartir este espacio con ustedes, personas apasionadas por aprender y explorar nuevas tecnologías. Su interés por la accesibilidad en el desarrollo móvil es inspirador. Les invitamos a aplicar todo lo aprendido en sus proyectos y a seguir construyendo un mundo digital más inclusivo. ¡Juntos podemos marcar la diferencia!".</string>
+    <string name="lorem_ipsum2">"En DevFest Medellín 2024. Estamos emocionados de compartir este espacio con ustedes, personas apasionadas por aprender y explorar nuevas tecnologías. Su interés por la accesibilidad en el desarrollo móvil es inspirador. Les invitamos a aplicar todo lo aprendi</string>
+
 </resources>

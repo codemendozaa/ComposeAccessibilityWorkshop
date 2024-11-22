@@ -32,27 +32,48 @@ private val LightColorScheme = lightColorScheme(
     onSurface = Color(0xFF1C1B1F),
     */
 )
+private val LightAccessibilityColorPalette = lightColorScheme(
+    primary = Teal500,
+    primaryContainer = Teal700,
+    secondary = Brown200,
+    secondaryContainer = Brown500
+)
+
+private val DarkAccessibilityColorPalette = darkColorScheme(
+    primary = Teal200,
+    primaryContainer = Teal700,
+    secondary = Brown200,
+    secondaryContainer = Brown500
+)
+
 
 @Composable
 fun ComposeAccessibilityWorkshopTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
-    // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    isAccessibilityEnabled: Boolean = false,
     content: @Composable () -> Unit
 ) {
-    val colorScheme = when {
-        dynamicColor && Build.VERSION.SDK_INT >= Build.VERSION_CODES.S -> {
-            val context = LocalContext.current
-            if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
+    val colors = if (darkTheme) {
+        if (isAccessibilityEnabled) {
+            DarkAccessibilityColorPalette
+        } else {
+            DarkColorScheme
         }
 
-        darkTheme -> DarkColorScheme
-        else -> LightColorScheme
+    } else {
+        if (isAccessibilityEnabled) {
+            LightAccessibilityColorPalette
+        } else {
+            LightColorScheme
+        }
     }
 
     MaterialTheme(
-        colorScheme = colorScheme,
+        colorScheme = colors,
         typography = Typography,
+        shapes = Shapes,
         content = content
     )
 }
+
+
