@@ -1,12 +1,34 @@
 # Compose Accessibility Workshop
 
-Este proyecto demuestra cómo crear una pantalla accesible en Jetpack Compose que incluye:
-- Un ícono de volver atrás 🔙.
-- Una imagen con descripción.
-- Un formulario con etiquetas (labels), un botón y un campo de entrada.
-- Un texto que muestra la descripción y el precio de un producto.
+# DevFest Medellín 2024 - Inclusión y Accesibilidad en Mobile
 
-Todos los elementos han sido configurados para ser compatibles con lectores de pantalla como TalkBack.
+¡Bienvenidos al **DevFest Medellín 2024**! Este repositorio es parte del taller dedicado a **accesibilidad en aplicaciones móviles**, donde aprenderás las mejores prácticas y técnicas esenciales para crear aplicaciones inclusivas.
+
+---
+
+## Captura de Pantalla
+
+<div align="center">
+  <img src="demo.png" alt="Demo mostrando accesibilidad en aplicaciones móviles" width="300" />
+</div>
+
+> **Nota:** Esta imagen fue creada por ChatGPT y representa la importancia de la inclusión en tecnología.
+
+---
+
+## ¿Qué aprenderás?
+
+- Principios de accesibilidad.
+- Implementación de componentes accesibles en Jetpack Compose.
+- Mejores prácticas para un diseño inclusivo.
+
+---
+
+## Cómo empezar
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/tu_usuario/tu_repositorio.git
 
 ## **Configuración del proyecto**
 1. Crea un nuevo proyecto en Android Studio:
