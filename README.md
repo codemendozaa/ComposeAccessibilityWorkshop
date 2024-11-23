@@ -62,8 +62,10 @@
 
     implementation(libs.accompanist.insets)
     implementation(libs.accompanist.systemuicontroller)
+```
 
 
+```
 navigationCompose = "2.8.4"
 material3 = "2.1.0"
 ui = "1.1.0"
@@ -89,7 +91,7 @@ androidx-navigation-compose = { group = "androidx.navigation", name = "navigatio
 accompanist-insets = { group = "com.google.accompanist", name = "accompanist-insets", version.ref = "accompanist" }
 accompanist-systemuicontroller = { group = "com.google.accompanist", name = "accompanist-systemuicontroller", version.ref = "accompanist" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
-
+```
 
 3.## Crear la UI con elementos accesibles
 
