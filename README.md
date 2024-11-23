@@ -63,7 +63,7 @@
     implementation(libs.accompanist.insets)
     implementation(libs.accompanist.systemuicontroller)
 
-Toml 
+
 navigationCompose = "2.8.4"
 material3 = "2.1.0"
 ui = "1.1.0"
@@ -71,7 +71,6 @@ ui-graphics = "1.1.0"
 accompanist = "0.30.1"
 material = "1.12.0"
 
--------
 
 
 [libraries]
