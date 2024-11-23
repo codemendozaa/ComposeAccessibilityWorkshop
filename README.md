@@ -71,9 +71,6 @@ ui-graphics = "1.1.0"
 accompanist = "0.30.1"
 material = "1.12.0"
 
-
-
-[libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
