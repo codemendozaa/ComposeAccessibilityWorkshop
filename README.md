@@ -64,8 +64,6 @@
     implementation(libs.accompanist.systemuicontroller)
 ```
 
-
-```
 navigationCompose = "2.8.4"
 material3 = "2.1.0"
 ui = "1.1.0"
